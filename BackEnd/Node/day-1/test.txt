@@ -1,0 +1,13 @@
+function marathon(n,k,l){
+    var sum=0;
+    l.sort((a,b)=>{
+        return b-a;});
+    for(var i=0;i<k;i++){
+        sum+=l[i];
+    }
+    return sum;
+}
+
+console.log(marathon(4,2,[4,1,2,5]));
+console.log(marathon(4,3,[4,3,6,1]));
+

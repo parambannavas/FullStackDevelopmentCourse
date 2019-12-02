@@ -1,0 +1,11 @@
+<div>
+  <h1>USERS</h1>
+  <button (click)="getUsers()">Load Users</button>
+  <div>
+    <ul *ngFor=" let i of userData" >
+      <li >{{i.name}}</li>
+      <li >{{i.username}}</li>
+      <li >{{i.email}}</li>
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,30 @@
+<div style="text-align:center">
+    <h1>
+      Welcome to ict {{ title }}!
+      {{temp}}
+    </h1>
+  
+  </div>
+  <div>Months:
+    <select>
+      <option *ngFor=" let i of months">{{i}}</option>
+    </select>
+  </div>
+  
+  <div>Months:
+    <ul>
+      <li *ngFor=" let i of months">{{[i]}}</li>
+    </ul>
+  </div>
+  <p *ngIf="isavailable">hello ict</p>
+  
+  <p *ngIf="a<b">success</p>
+  <span *ngIf="isavailable;else condition1">Success</span>
+  <ng-template #condition1>Failed</ng-template><br>
+  <p *ngIf="a>b;else condition2">{{a}} is greater</p>
+  <ng-template #condition2>{{b}} is greater</ng-template>
+  <br>
+  <input type="text" [(ngModel)]="name">
+  <input type="text" [(ngModel)]="name">
+  <br>
+  <button (click)=" myClickfunction($event)">Click Me</button>

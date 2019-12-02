@@ -1,0 +1,77 @@
+.navbar-custom{
+    background-color: rgb(22, 22, 100)
+
+}
+.nav-item{
+    margin-left: 30%;
+}
+.nav-link{
+color: white;
+}
+.j1{ background-color: rgb(7, 26, 63);
+     padding: 0%
+}
+.j2{margin-top: 1.5%;
+    margin-bottom:4%;
+    background-color: rgb(22, 22, 100);
+    padding-top: 1%;
+    
+    
+     }
+.j3{margin-left: 20%;
+    margin-top: 0.5%;
+    margin-bottom:4%;
+    background-color: rgba(189, 32, 32, 0.061);
+    padding-top: 0.5%;
+}
+.j4{
+    margin-left: 20%;
+    margin-top: 2%;
+    margin-bottom:4%;
+    background-color: rgba(133, 122, 122, 0.061);
+    padding-top: 1%;
+}
+
+ .lib{
+       color:white ;
+       margin-left:8%;
+       margin-bottom: 4%;
+       margin-top  :  8%
+
+ }
+ 
+ 
+    .sub img{
+    
+        width:80% ;
+       height: 80%;
+        
+ }
+   
+    
+    .main{
+        background-color: white;
+        padding-left: 0%;
+        margin-left: 4%;
+        margin-right:0%;
+        padding-right: 5%;
+        margin-top: -50px;
+        height: 718px;
+    }
+    .sub{
+    padding-top: 3%;
+    margin-left: 5%;    
+    margin-right: 0%;
+    padding-right: 0%;
+    padding-left: 0%;
+    }
+    .sub1{
+    
+        padding-left: 3%;
+    
+    }
+    
+    body{
+        background-color: rgb(215, 210, 210);
+    }
+    
